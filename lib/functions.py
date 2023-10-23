@@ -3,8 +3,6 @@
 def greet_programmer():
     print("Hello, programmer!")
 
-
-
 def greet(name):
     print(f"Hello, {name}!")
 
@@ -16,9 +14,9 @@ def greet_with_default(name="programmer"):
 greet_with_default("Alberto")
 
 def add(num1, num2):
-    print(num1 + num2)
+    return(num1 + num2)
 add(2,2)
 
 def halve(number):
-    print(number / 2)
+    return(number / 2)
 halve(10)
